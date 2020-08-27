@@ -44,8 +44,8 @@ def won(symbol):
 def place(symbol):
     print(numpy.matrix(board))
     while(1):
-        row=int(input('Enter row: 1 or 2 or 3'))
-        col=int(input('Enter col: 1 or 2 or 3'))
+        row=int(input('Enter row: 1 or 2 or 3: '))
+        col=int(input('Enter col: 1 or 2 or 3: '))
         if row>0 and row<4 and col>0 and col<4 and board[row-1][col-1]=='_':
             break
         else:

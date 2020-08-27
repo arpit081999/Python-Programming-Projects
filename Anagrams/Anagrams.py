@@ -2,8 +2,8 @@
 @author: Arpit Somani
 """
 
-str1=input("Enter the first string")
-str2=input("Enter the second string")
+str1=input("Enter the first string: ")
+str2=input("Enter the second string: ")
 
 count1=0
 i=0
