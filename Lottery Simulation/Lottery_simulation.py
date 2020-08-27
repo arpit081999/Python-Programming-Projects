@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 account=0
 x=[]
 y=[]
-for i in range(365):
+for i in range(7):
     x.append(i+1)
     bet=random.randint(1,10)
     lucky_draw=random.randint(1,10)
